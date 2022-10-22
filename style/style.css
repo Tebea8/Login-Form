@@ -1,0 +1,108 @@
+.box{
+    width: 400px;
+    /* height: 655px; */
+    background-color: #ffffff;
+    border: 5px solid #F0F2F7;
+    font-size: 30px;
+    border-radius: 15px;
+    display: flex;
+  justify-content: center;
+    flex-direction: column;
+    padding-left: 55px;
+    padding-right: 55px;
+    
+  
+}
+.MotherElement{
+    display: flex;
+    justify-content: center;
+    
+}
+.image{
+    height: 75px;
+    width: 80px;
+    /* margin-top: 48px; */
+    margin: 0 auto;
+   
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 20px ;
+    
+}
+.input1{
+height: 45px;
+border: 1px solid #CCCCCC;
+/* font-family: Brandon Grotesque, medium; */
+background-color: #fff ;
+border-radius: 5px;
+color: #9399A3;
+font-size: medium;
+}
+.password{
+    color: #9399A3;
+    font-size: 20px;
+    padding-top: 6px;
+    display: flex;
+    justify-content: right;
+    padding-bottom: 30px;
+}
+.SignIn{
+    height: 45px;
+    background-color: #691AFD;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+.OrSign{
+    font-size: 20px;
+    color: #9399A3 ;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+    padding-bottom: 40px;
+}
+.facebook{
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    float: left;
+    margin-right: 50px;
+    
+}
+.gmail{
+    font-size: 50px;
+    margin-right: 50px;
+    float: left;
+    color: red;
+
+}
+.twitter{
+    background-color: rgb(36, 115, 233);
+    color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
